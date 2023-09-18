@@ -1,0 +1,164 @@
+[INFO ] 2023-09-14 15:18:00.766 [main] PropertyConfig - Properties file loaded.
+[INFO ] 2023-09-14 15:18:02.682 [main] BaseTestConfig - Using browser: CHROME
+[INFO ] 2023-09-14 15:18:03.130 [main] SharedSteps - ***Executing Scenario***
+[INFO ] 2023-09-14 15:18:05.276 [main] BaseTestConfig - Navigating to https://be.cognizant.com/
+[INFO ] 2023-09-14 15:18:05.310 [main] SharedSteps - User on login page.
+[INFO ] 2023-09-14 15:18:05.332 [main] LoginPage - User signing in...
+[WARN ] 2023-09-14 15:18:06.577 [main] BaseTestConfig - Pre-Existing screenshots deleted, if any
+[INFO ] 2023-09-14 15:18:06.796 [main] BaseTestConfig - Screenshot captured.
+[INFO ] 2023-09-14 15:18:06.799 [main] BaseTestConfig - Screenshot stored as: 1_LoginPage_6039.png
+[INFO ] 2023-09-14 15:18:07.096 [main] LoginPage - waiting for user to enter password & clear code verification manually...
+[INFO ] 2023-09-14 15:18:30.726 [main] LoginPage - Login manual procedures cleared...
+[INFO ] 2023-09-14 15:18:30.898 [main] BaseTestConfig - Screenshot captured.
+[INFO ] 2023-09-14 15:18:30.901 [main] BaseTestConfig - Screenshot stored as: 2_LoginPage_30141.png
+[INFO ] 2023-09-14 15:18:36.173 [main] LoginPage - User signed in & redirected to homepage.
+[INFO ] 2023-09-14 15:18:36.180 [main] HomePage - Expanding header element in webpage.
+[WARN ] 2023-09-14 15:18:44.260 [main] DisplayUserInfoSteps - User profile section not hidden. Continuing test...
+[INFO ] 2023-09-14 15:18:44.333 [main] HomePage - Opening Userprofile section.
+[INFO ] 2023-09-14 15:18:44.679 [main] HomePage - Capturing username.
+[INFO ] 2023-09-14 15:18:44.728 [main] DisplayUserInfoSteps - Username: Verma, Krishna (Cognizant)
+[INFO ] 2023-09-14 15:18:44.729 [main] HomePage - Capturing user email id.
+[INFO ] 2023-09-14 15:18:44.783 [main] DisplayUserInfoSteps - User email: 2269552@cognizant.com
+[INFO ] 2023-09-14 15:18:45.304 [main] DisplayUserInfoSteps - Storing User info in excel sheet.
+[INFO ] 2023-09-14 15:18:45.495 [main] DisplayUserInfoSteps - Data stored.
+[INFO ] 2023-09-14 15:18:45.537 [main] SharedSteps - ***Executing Scenario***
+[INFO ] 2023-09-14 15:18:49.642 [main] BaseTestConfig - Navigating to https://be.cognizant.com/
+[INFO ] 2023-09-14 15:18:49.662 [main] SharedSteps - User on homepage.
+[INFO ] 2023-09-14 15:18:49.711 [main] HomePage - Scrolling to 'world clock' section...
+[INFO ] 2023-09-14 15:18:52.167 [main] DisplayWorldClockSteps - World clock is in view.
+[INFO ] 2023-09-14 15:18:52.187 [main] SharedSteps - ***Executing Scenario***
+[INFO ] 2023-09-14 15:18:57.836 [main] BaseTestConfig - Navigating to https://be.cognizant.com/
+[INFO ] 2023-09-14 15:18:57.851 [main] SharedSteps - User on homepage.
+[INFO ] 2023-09-14 15:18:57.888 [main] HomePage - Scrolling to 'world clock' section...
+[INFO ] 2023-09-14 15:18:57.898 [main] WorldClock - Extracting time for Bangalore
+[INFO ] 2023-09-14 15:18:57.899 [main] WorldClock - Extracting timezone for location Bangalore
+[INFO ] 2023-09-14 15:18:58.057 [main] WorldClock - formatting time.
+[INFO ] 2023-09-14 15:18:58.067 [main] VerifyTimezonesTimeSteps - Bangalore's displayed time: 15:18
+[INFO ] 2023-09-14 15:18:58.068 [main] VerifyTimezonesTimeSteps - Retrieving System time.
+[INFO ] 2023-09-14 15:18:58.068 [main] VerifyTimezonesTimeSteps - Formatting System time.
+[INFO ] 2023-09-14 15:18:58.068 [main] VerifyTimezonesTimeSteps - System time: 15:18
+[INFO ] 2023-09-14 15:18:58.186 [main] WorldClock - Retrieving all world clock locations available.
+[INFO ] 2023-09-14 15:18:58.325 [main] BaseTestConfig - New Tab opened
+[INFO ] 2023-09-14 15:18:58.326 [main] VerifyTimezonesTimeSteps - Switching to new tab.
+[INFO ] 2023-09-14 15:19:04.149 [main] BaseTestConfig - Navigating to https://www.google.com/
+[INFO ] 2023-09-14 15:19:07.224 [main] GoogleSearchPage - Executing google search for: London, UK  date time
+[INFO ] 2023-09-14 15:19:07.272 [main] GoogleSearchPage - Extracting 'time' from google search results.
+[INFO ] 2023-09-14 15:19:07.314 [main] GoogleSearchPage - Formatting time.
+[INFO ] 2023-09-14 15:19:07.314 [main] VerifyTimezonesTimeSteps - Expected Time for London, UK  as per google data: 10:49
+[INFO ] 2023-09-14 15:19:07.387 [main] VerifyTimezonesTimeSteps - Switching to Default window.
+[INFO ] 2023-09-14 15:19:07.399 [main] WorldClock - Extracting time for London, UK 
+[INFO ] 2023-09-14 15:19:07.400 [main] WorldClock - Extracting timezone for location London, UK 
+[INFO ] 2023-09-14 15:19:07.458 [main] WorldClock - formatting time.
+[INFO ] 2023-09-14 15:19:07.459 [main] VerifyTimezonesTimeSteps - Displayed time for London, UK : 10:49
+[INFO ] 2023-09-14 15:19:07.532 [main] BaseTestConfig - New Tab opened
+[INFO ] 2023-09-14 15:19:07.532 [main] VerifyTimezonesTimeSteps - Switching to new tab.
+[INFO ] 2023-09-14 15:19:08.573 [main] BaseTestConfig - Navigating to https://www.google.com/
+[INFO ] 2023-09-14 15:19:09.258 [main] GoogleSearchPage - Executing google search for: New York, NY  date time
+[INFO ] 2023-09-14 15:19:11.770 [main] GoogleSearchPage - Extracting 'time' from google search results.
+[INFO ] 2023-09-14 15:19:11.807 [main] GoogleSearchPage - Formatting time.
+[INFO ] 2023-09-14 15:19:11.808 [main] VerifyTimezonesTimeSteps - Expected Time for New York, NY  as per google data: 05:49
+[INFO ] 2023-09-14 15:19:11.878 [main] VerifyTimezonesTimeSteps - Switching to Default window.
+[INFO ] 2023-09-14 15:19:11.892 [main] WorldClock - Extracting time for New York, NY 
+[INFO ] 2023-09-14 15:19:11.892 [main] WorldClock - Extracting timezone for location New York, NY 
+[INFO ] 2023-09-14 15:19:11.920 [main] WorldClock - formatting time.
+[INFO ] 2023-09-14 15:19:11.920 [main] VerifyTimezonesTimeSteps - Displayed time for New York, NY : 05:49
+[INFO ] 2023-09-14 15:19:11.934 [main] SharedSteps - ***Executing Scenario***
+[INFO ] 2023-09-14 15:19:16.002 [main] BaseTestConfig - Navigating to https://be.cognizant.com/
+[INFO ] 2023-09-14 15:19:16.014 [main] SharedSteps - User on homepage.
+[INFO ] 2023-09-14 15:19:16.056 [main] HomePage - Scrolling to 'world clock' section...
+[INFO ] 2023-09-14 15:19:16.059 [main] WorldClock - Extracting date for Bangalore
+[INFO ] 2023-09-14 15:19:16.060 [main] WorldClock - Extracting timezone for location Bangalore
+[INFO ] 2023-09-14 15:19:16.253 [main] WorldClock - formatting date.
+[INFO ] 2023-09-14 15:19:16.255 [main] VerifyBangaloreDateSteps - Displayed Bangalore date: Thu, 9/14/2023
+[INFO ] 2023-09-14 15:19:16.255 [main] VerifyBangaloreDateSteps - Retrieving system date.
+[INFO ] 2023-09-14 15:19:16.255 [main] VerifyBangaloreDateSteps - Formatting system date.
+[INFO ] 2023-09-14 15:19:16.255 [main] VerifyBangaloreDateSteps - System date: Thu, 9/14/2023
+[INFO ] 2023-09-14 15:19:16.257 [main] VerifyBangaloreDateSteps - Retrieving the 'Day' from displayed Bangalore date
+[INFO ] 2023-09-14 15:19:16.257 [main] VerifyBangaloreDateSteps - Displayed Bangalore Date's Day: THURSDAY
+[INFO ] 2023-09-14 15:19:16.257 [main] VerifyBangaloreDateSteps - Retrieving the 'Day' from system date
+[INFO ] 2023-09-14 15:19:16.257 [main] VerifyBangaloreDateSteps - System date's Day: THURSDAY
+[INFO ] 2023-09-14 15:19:16.257 [main] VerifyBangaloreDateSteps - Retrieiving Bangalore's Date week number.
+[INFO ] 2023-09-14 15:19:16.257 [main] VerifyBangaloreDateSteps - Retrieving System Date's week number.
+[INFO ] 2023-09-14 15:19:16.265 [main] SharedSteps - ***Executing Scenario***
+[INFO ] 2023-09-14 15:19:25.388 [main] BaseTestConfig - Navigating to https://be.cognizant.com/
+[INFO ] 2023-09-14 15:19:25.394 [main] SharedSteps - User on homepage.
+[INFO ] 2023-09-14 15:19:25.431 [main] HomePage - Scrolling to 'world clock' section...
+[INFO ] 2023-09-14 15:19:25.660 [main] WorldClock - Retrieving all world clock locations available.
+[INFO ] 2023-09-14 15:19:25.729 [main] WorldClock - Extracting date for Bangalore
+[INFO ] 2023-09-14 15:19:25.730 [main] WorldClock - Extracting timezone for location Bangalore
+[INFO ] 2023-09-14 15:19:25.760 [main] WorldClock - formatting date.
+[INFO ] 2023-09-14 15:19:25.761 [main] VerifyTimeDifferencesSteps - Bangalore date displayed: 2023-09-14
+[INFO ] 2023-09-14 15:19:25.761 [main] WorldClock - Extracting date for London, UK (BST)
+[INFO ] 2023-09-14 15:19:25.761 [main] WorldClock - Extracting timezone for location London, UK (BST)
+[INFO ] 2023-09-14 15:19:25.795 [main] WorldClock - formatting date.
+[INFO ] 2023-09-14 15:19:25.795 [main] VerifyTimeDifferencesSteps - London, UK (BST) date displayed: 2023-09-14
+[INFO ] 2023-09-14 15:19:25.795 [main] WorldClock - Extracting time for Bangalore
+[INFO ] 2023-09-14 15:19:25.795 [main] WorldClock - Extracting timezone for location Bangalore
+[INFO ] 2023-09-14 15:19:25.828 [main] WorldClock - formatting time.
+[INFO ] 2023-09-14 15:19:25.828 [main] VerifyTimeDifferencesSteps - Bangalore time displayed: 15:19
+[INFO ] 2023-09-14 15:19:25.828 [main] WorldClock - Extracting time for London, UK (BST)
+[INFO ] 2023-09-14 15:19:25.828 [main] WorldClock - Extracting timezone for location London, UK (BST)
+[INFO ] 2023-09-14 15:19:25.871 [main] WorldClock - formatting time.
+[INFO ] 2023-09-14 15:19:25.871 [main] VerifyTimeDifferencesSteps - London, UK (BST) time displayed: 10:49
+[INFO ] 2023-09-14 15:19:25.871 [main] WorldClock - Retrieving time offset for location London, UK (BST)
+[INFO ] 2023-09-14 15:19:25.905 [main] VerifyTimeDifferencesSteps - Displayed time difference: -4h 30m
+[INFO ] 2023-09-14 15:19:25.906 [main] VerifyTimeDifferencesSteps - Date, Time retrieved. Calculating time difference.
+[INFO ] 2023-09-14 15:19:25.906 [main] VerifyTimeDifferencesSteps - Verifying time difference
+[INFO ] 2023-09-14 15:19:25.906 [main] VerifyTimeDifferencesSteps - Expected time difference: -4h 30m
+[INFO ] 2023-09-14 15:19:25.906 [main] WorldClock - Extracting date for Bangalore
+[INFO ] 2023-09-14 15:19:25.906 [main] WorldClock - Extracting timezone for location Bangalore
+[INFO ] 2023-09-14 15:19:25.936 [main] WorldClock - formatting date.
+[INFO ] 2023-09-14 15:19:25.937 [main] VerifyTimeDifferencesSteps - Bangalore date displayed: 2023-09-14
+[INFO ] 2023-09-14 15:19:25.937 [main] WorldClock - Extracting date for New York, NY (EST)
+[INFO ] 2023-09-14 15:19:25.937 [main] WorldClock - Extracting timezone for location New York, NY (EST)
+[INFO ] 2023-09-14 15:19:25.973 [main] WorldClock - formatting date.
+[INFO ] 2023-09-14 15:19:25.973 [main] VerifyTimeDifferencesSteps - New York, NY (EST) date displayed: 2023-09-14
+[INFO ] 2023-09-14 15:19:25.974 [main] WorldClock - Extracting time for Bangalore
+[INFO ] 2023-09-14 15:19:25.974 [main] WorldClock - Extracting timezone for location Bangalore
+[INFO ] 2023-09-14 15:19:26.006 [main] WorldClock - formatting time.
+[INFO ] 2023-09-14 15:19:26.006 [main] VerifyTimeDifferencesSteps - Bangalore time displayed: 15:19
+[INFO ] 2023-09-14 15:19:26.006 [main] WorldClock - Extracting time for New York, NY (EST)
+[INFO ] 2023-09-14 15:19:26.006 [main] WorldClock - Extracting timezone for location New York, NY (EST)
+[INFO ] 2023-09-14 15:19:26.041 [main] WorldClock - formatting time.
+[INFO ] 2023-09-14 15:19:26.043 [main] VerifyTimeDifferencesSteps - New York, NY (EST) time displayed: 05:49
+[INFO ] 2023-09-14 15:19:26.043 [main] WorldClock - Retrieving time offset for location New York, NY (EST)
+[INFO ] 2023-09-14 15:19:26.082 [main] VerifyTimeDifferencesSteps - Displayed time difference: -9h 30m
+[INFO ] 2023-09-14 15:19:26.082 [main] VerifyTimeDifferencesSteps - Date, Time retrieved. Calculating time difference.
+[INFO ] 2023-09-14 15:19:26.082 [main] VerifyTimeDifferencesSteps - Verifying time difference
+[INFO ] 2023-09-14 15:19:26.083 [main] VerifyTimeDifferencesSteps - Expected time difference: -9h 30m
+[INFO ] 2023-09-14 15:19:26.094 [main] SharedSteps - ***Executing Scenario***
+[INFO ] 2023-09-14 15:19:31.015 [main] BaseTestConfig - Navigating to https://be.cognizant.com/
+[INFO ] 2023-09-14 15:19:31.030 [main] SharedSteps - User on homepage.
+[INFO ] 2023-09-14 15:19:31.070 [main] HomePage - Scrolling to 'one cognizant' -- hotapps section...
+[INFO ] 2023-09-14 15:19:59.860 [main] HomePage - One Cognizant app opened.
+[INFO ] 2023-09-14 15:20:01.058 [main] AppStore - Retrieving Displayed characters as List of characters...
+[INFO ] 2023-09-14 15:20:01.937 [main] VerifyA2ZalphabetsDisplayedSteps - Displayed alphabets are: [A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z]
+[INFO ] 2023-09-14 15:20:01.938 [main] VerifyA2ZalphabetsDisplayedSteps - Retrieved characters count: 26
+[INFO ] 2023-09-14 15:20:02.037 [main] SharedSteps - ***Executing Scenario***
+[INFO ] 2023-09-14 15:20:08.269 [main] BaseTestConfig - Navigating to https://be.cognizant.com/
+[INFO ] 2023-09-14 15:20:08.279 [main] SharedSteps - User on homepage.
+[INFO ] 2023-09-14 15:20:08.325 [main] HomePage - Scrolling to 'one cognizant' -- hotapps section...
+[INFO ] 2023-09-14 15:20:21.768 [main] HomePage - One Cognizant app opened.
+[INFO ] 2023-09-14 15:20:25.498 [main] AppStore - Retrieving Disabled characters as List of characters...
+[INFO ] 2023-09-14 15:20:25.574 [main] VerifyDisabledAlphabetsSteps - Disabled alphabets are: [X]
+[INFO ] 2023-09-14 15:20:25.574 [main] VerifyDisabledAlphabetsSteps - Count of disabled alphabets present: 1
+[INFO ] 2023-09-14 15:20:25.624 [main] AppStore - Performing 'click' on the alphabet: X
+[WARN ] 2023-09-14 15:20:26.716 [main] AppStore - Click failed on the alphabet: X
+[INFO ] 2023-09-14 15:20:26.818 [main] SharedSteps - ***Executing Scenario***
+[INFO ] 2023-09-14 15:20:30.176 [main] BaseTestConfig - Navigating to https://be.cognizant.com/
+[INFO ] 2023-09-14 15:20:30.186 [main] SharedSteps - User on homepage.
+[INFO ] 2023-09-14 15:20:30.221 [main] HomePage - Scrolling to 'one cognizant' -- hotapps section...
+[INFO ] 2023-09-14 15:20:38.805 [main] HomePage - One Cognizant app opened.
+[INFO ] 2023-09-14 15:20:42.087 [main] DisplayRandomAlphaAppsSteps - Generating random alphabet.
+[INFO ] 2023-09-14 15:20:42.089 [main] AppStore - Retrieving Disabled characters as List of characters...
+[INFO ] 2023-09-14 15:20:42.166 [main] AppStore - X is disabled.
+[INFO ] 2023-09-14 15:20:42.167 [main] DisplayRandomAlphaAppsSteps - Generating random alphabet.
+[INFO ] 2023-09-14 15:20:42.167 [main] AppStore - Retrieving Disabled characters as List of characters...
+[INFO ] 2023-09-14 15:20:42.226 [main] DisplayRandomAlphaAppsSteps - Random alphabet generated: S
+[INFO ] 2023-09-14 15:20:42.253 [main] AppStore - Performing 'click' on the alphabet: S
+[INFO ] 2023-09-14 15:20:43.775 [main] AppStore - Retrieving all displayed app names as List.
+[INFO ] 2023-09-14 15:20:44.300 [main] DisplayRandomAlphaAppsSteps - Storing App names in excel sheet.
+[INFO ] 2023-09-14 15:20:44.343 [main] DisplayRandomAlphaAppsSteps - Data stored.
+[INFO ] 2023-09-14 15:20:44.686 [main] ExcelUtils - Excel workbook saved.
+[INFO ] 2023-09-14 15:20:44.686 [main] SharedSteps - *****Ending Tests*****
+[INFO ] 2023-09-14 15:20:44.687 [main] BaseTestConfig - Closing driver and quitting browser window.
